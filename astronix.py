@@ -27,7 +27,8 @@
 # ══════════════════════════════════════════════════════════════════════════════
 # 🔧 CORE IMPORTS - STANDARD LIBRARY
 # ══════════════════════════════════════════════════════════════════════════════
-
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import sys
 import time
